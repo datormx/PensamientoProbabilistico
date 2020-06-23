@@ -74,12 +74,8 @@ def crear_cluster(distancia_mas_corta, vectors):
     Retorna: Una lista con el cluster creado en forma de punto y los id de los puntos con los que se creó. 
     tuple (list, int, int)
     """
-    # puntos_a_agrupar = []
-
     punto_a_agrupar_1 = vectors[distancia_mas_corta[1]]
     punto_a_agrupar_2 = vectors[distancia_mas_corta[2]]
-    # puntos_a_agrupar.append(vectors[distancia_mas_corta[1]]) #Accediendo a puntos dentro de los vectors con sus id.
-    # puntos_a_agrupar.append(vectors[distancia_mas_corta[2]])
 
     a = punto_a_agrupar_1[1]
     b = punto_a_agrupar_1[2]
